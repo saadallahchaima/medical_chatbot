@@ -1,0 +1,102 @@
+{
+  "app": {
+    "name": "MediAgent",
+    "subtitle": "AI Clinical Assistant",
+    "tagline": "Diagnosis · Interactions · Scores · Literature · Vision"
+  },
+  "nav": {
+    "newSession": "New consultation",
+    "recentSessions": "Recent consultations",
+    "systemStatus": "System status",
+    "ragBase": "RAG Database",
+    "settings": "Settings"
+  },
+  "header": {
+    "newConsultation": "New consultation",
+    "agentInfo": "ReAct Agent · Medical RAG · 5 specialized tools",
+    "patientContext": "Patient context"
+  },
+  "chat": {
+    "placeholder": "Clinical question, prescription to check, score to calculate, image to analyze…",
+    "send": "Send",
+    "enterToSend": "Enter to send · Shift+Enter for new line",
+    "medicalUseOnly": "Professional medical use only",
+    "thinking": "MediAgent is reasoning…",
+    "toolsUsed": "Tools used",
+    "sources": "source",
+    "sources_plural": "sources",
+    "disclaimer": "To be validated by a healthcare professional",
+    "errorTitle": "Connection error",
+    "errorBackend": "Make sure the FastAPI backend is running on port 8000.",
+    "files": "Files"
+  },
+  "welcome": {
+    "title": "AI clinical assistant with multi-step reasoning.",
+    "capabilities": {
+      "rag": { "title": "Medical RAG", "desc": "DSM-5, ICD-11, WHO guidelines, Cochrane" },
+      "pubmed": { "title": "PubMed Search", "desc": "Recent literature, meta-analyses" },
+      "drug": { "title": "Drug Checker", "desc": "Interactions, contraindications, dosing" },
+      "risk": { "title": "Risk Scorer", "desc": "CHADS2-VASc, Wells, CURB-65, qSOFA…" },
+      "vision": { "title": "Medical Vision", "desc": "X-ray, ECG, MRI, CT scan" },
+      "react": { "title": "ReAct Agent", "desc": "Multi-step sourced reasoning" }
+    },
+    "examples": "Example queries",
+    "exampleList": [
+      "68-year-old patient, AF, hypertension, diabetes. Anticoagulation?",
+      "Interactions between warfarin, ibuprofen and digoxin",
+      "CHADS2-VASc score: age 72, hypertension, diabetes, prior stroke",
+      "Latest ESC 2024 guidelines on heart failure",
+      "Chest X-ray analysis: right lower lobe opacity"
+    ]
+  },
+  "patient": {
+    "title": "Patient Context",
+    "subtitle": "Information to enrich agent responses",
+    "chiefComplaint": "Chief complaint",
+    "chiefComplaintPlaceholder": "Ex: Chest pain for 2 hours, radiating to left arm...",
+    "age": "Age (years)",
+    "sex": "Sex",
+    "weight": "Weight (kg)",
+    "male": "Male",
+    "female": "Female",
+    "other": "Other",
+    "allergies": "Allergies",
+    "allergiesPlaceholder": "Ex: Penicillin, NSAIDs...",
+    "medications": "Current medications",
+    "medicationsPlaceholder": "Ex: Metformin 1g, Ramipril 5mg...",
+    "conditions": "Medical history / Chronic conditions",
+    "conditionsPlaceholder": "Ex: Type 2 diabetes, hypertension, COPD...",
+    "save": "Save",
+    "clear": "Clear context",
+    "saved": "Patient context saved"
+  },
+  "vision": {
+    "title": "Medical image analysis — Groq Vision",
+    "dropTitle": "Drop a medical image",
+    "dropSubtitle": "X-ray · ECG · MRI · CT scan · Fundus — JPG, PNG, WebP",
+    "chooseFile": "Choose a file",
+    "contextPlaceholder": "Optional clinical context: age, symptoms, reason for exam...",
+    "analyze": "Analyze image",
+    "analyzing": "Analysis in progress by Groq Vision…",
+    "reportTitle": "Analysis report — Groq Vision",
+    "errorFormat": "Image file required (JPG, PNG, WebP)",
+    "errorSize": "Image too large (max 20MB)",
+    "errorFailed": "Analysis failed"
+  },
+  "voice": {
+    "record": "Record a voice message",
+    "stop": "Stop recording",
+    "transcribing": "Transcribing...",
+    "success": "Transcribed",
+    "errorMic": "Microphone denied — allow microphone in your browser",
+    "errorEmpty": "Empty transcription",
+    "errorFailed": "Transcription failed"
+  },
+  "language": {
+    "select": "Language",
+    "fr": "Français",
+    "en": "English",
+    "ar": "العربية",
+    "es": "Español"
+  }
+}

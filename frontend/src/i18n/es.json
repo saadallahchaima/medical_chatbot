@@ -1,0 +1,102 @@
+{
+  "app": {
+    "name": "MediAgent",
+    "subtitle": "Asistente Clínico IA",
+    "tagline": "Diagnóstico · Interacciones · Scores · Literatura · Visión"
+  },
+  "nav": {
+    "newSession": "Nueva consulta",
+    "recentSessions": "Consultas recientes",
+    "systemStatus": "Estado del sistema",
+    "ragBase": "Base RAG",
+    "settings": "Configuración"
+  },
+  "header": {
+    "newConsultation": "Nueva consulta",
+    "agentInfo": "Agente ReAct · RAG médico · 5 herramientas especializadas",
+    "patientContext": "Contexto del paciente"
+  },
+  "chat": {
+    "placeholder": "Pregunta clínica, receta a verificar, score a calcular, imagen a analizar…",
+    "send": "Enviar",
+    "enterToSend": "Enter para enviar · Shift+Enter para nueva línea",
+    "medicalUseOnly": "Uso médico profesional únicamente",
+    "thinking": "MediAgent está razonando…",
+    "toolsUsed": "Herramientas usadas",
+    "sources": "fuente",
+    "sources_plural": "fuentes",
+    "disclaimer": "Debe ser validado por un profesional de la salud",
+    "errorTitle": "Error de conexión",
+    "errorBackend": "Verifica que el backend FastAPI esté ejecutándose en el puerto 8000.",
+    "files": "Archivos"
+  },
+  "welcome": {
+    "title": "Asistente clínico IA con razonamiento multi-etapa.",
+    "capabilities": {
+      "rag": { "title": "RAG Médico", "desc": "DSM-5, ICD-11, guías OMS, Cochrane" },
+      "pubmed": { "title": "Búsqueda PubMed", "desc": "Literatura reciente, metaanálisis" },
+      "drug": { "title": "Drug Checker", "desc": "Interacciones, contraindicaciones, dosis" },
+      "risk": { "title": "Risk Scorer", "desc": "CHADS2-VASc, Wells, CURB-65, qSOFA…" },
+      "vision": { "title": "Visión Médica", "desc": "Radiografía, ECG, RMN, escáner" },
+      "react": { "title": "Agente ReAct", "desc": "Razonamiento multi-etapa con fuentes" }
+    },
+    "examples": "Ejemplos de consultas",
+    "exampleList": [
+      "Paciente de 68 años, FA, HTA, diabetes. ¿Anticoagulación?",
+      "Interacciones entre warfarina, ibuprofeno y digoxina",
+      "Score CHADS2-VASc: edad 72, HTA, diabetes, ACV previo",
+      "Últimas guías ESC 2024 sobre insuficiencia cardíaca",
+      "Análisis radiografía de tórax: opacidad lóbulo inferior derecho"
+    ]
+  },
+  "patient": {
+    "title": "Contexto del Paciente",
+    "subtitle": "Información para enriquecer las respuestas del agente",
+    "chiefComplaint": "Motivo de consulta",
+    "chiefComplaintPlaceholder": "Ej: Dolor torácico desde hace 2h, irradiado al brazo izquierdo...",
+    "age": "Edad (años)",
+    "sex": "Sexo",
+    "weight": "Peso (kg)",
+    "male": "Masculino",
+    "female": "Femenino",
+    "other": "Otro",
+    "allergies": "Alergias",
+    "allergiesPlaceholder": "Ej: Penicilina, AINEs...",
+    "medications": "Medicamentos actuales",
+    "medicationsPlaceholder": "Ej: Metformina 1g, Ramipril 5mg...",
+    "conditions": "Antecedentes / Enfermedades crónicas",
+    "conditionsPlaceholder": "Ej: Diabetes tipo 2, HTA, EPOC...",
+    "save": "Guardar",
+    "clear": "Borrar contexto",
+    "saved": "Contexto del paciente guardado"
+  },
+  "vision": {
+    "title": "Análisis de imagen médica — Groq Vision",
+    "dropTitle": "Suelta una imagen médica",
+    "dropSubtitle": "Radiografía · ECG · RMN · Escáner · Fondo de ojo — JPG, PNG, WebP",
+    "chooseFile": "Elegir archivo",
+    "contextPlaceholder": "Contexto clínico opcional: edad, síntomas, motivo del examen...",
+    "analyze": "Analizar imagen",
+    "analyzing": "Análisis en curso por Groq Vision…",
+    "reportTitle": "Informe de análisis — Groq Vision",
+    "errorFormat": "Se requiere archivo de imagen (JPG, PNG, WebP)",
+    "errorSize": "Imagen demasiado grande (máx 20MB)",
+    "errorFailed": "Análisis fallido"
+  },
+  "voice": {
+    "record": "Grabar mensaje de voz",
+    "stop": "Detener grabación",
+    "transcribing": "Transcribiendo...",
+    "success": "Transcrito",
+    "errorMic": "Micrófono denegado — permite el micrófono en tu navegador",
+    "errorEmpty": "Transcripción vacía",
+    "errorFailed": "Transcripción fallida"
+  },
+  "language": {
+    "select": "Idioma",
+    "fr": "Français",
+    "en": "English",
+    "ar": "العربية",
+    "es": "Español"
+  }
+}

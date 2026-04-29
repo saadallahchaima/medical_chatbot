@@ -1,0 +1,102 @@
+{
+  "app": {
+    "name": "MediAgent",
+    "subtitle": "Assistant Clinique IA",
+    "tagline": "Diagnostic · Interactions · Scores · Littérature · Vision"
+  },
+  "nav": {
+    "newSession": "Nouvelle consultation",
+    "recentSessions": "Consultations récentes",
+    "systemStatus": "Statut système",
+    "ragBase": "Base RAG",
+    "settings": "Paramètres"
+  },
+  "header": {
+    "newConsultation": "Nouvelle consultation",
+    "agentInfo": "Agent ReAct · RAG médical · 5 outils spécialisés",
+    "patientContext": "Contexte patient"
+  },
+  "chat": {
+    "placeholder": "Question clinique, ordonnance à vérifier, score à calculer, image à analyser…",
+    "send": "Envoyer",
+    "enterToSend": "Entrée pour envoyer · Shift+Entrée pour nouvelle ligne",
+    "medicalUseOnly": "Usage médical professionnel uniquement",
+    "thinking": "MediAgent raisonne…",
+    "toolsUsed": "Outils utilisés",
+    "sources": "source",
+    "sources_plural": "sources",
+    "disclaimer": "À valider par un professionnel de santé",
+    "errorTitle": "Erreur de connexion",
+    "errorBackend": "Vérifiez que le backend FastAPI est lancé sur le port 8000.",
+    "files": "Fichiers"
+  },
+  "welcome": {
+    "title": "Assistant clinique IA à raisonnement multi-étapes.",
+    "capabilities": {
+      "rag": { "title": "RAG Médical", "desc": "DSM-5, ICD-11, guidelines WHO, Cochrane" },
+      "pubmed": { "title": "PubMed Search", "desc": "Littérature récente, méta-analyses" },
+      "drug": { "title": "Drug Checker", "desc": "Interactions, contre-indications, doses" },
+      "risk": { "title": "Risk Scorer", "desc": "CHADS2-VASc, Wells, CURB-65, qSOFA…" },
+      "vision": { "title": "Vision Médicale", "desc": "Radio, ECG, IRM, scanner" },
+      "react": { "title": "ReAct Agent", "desc": "Raisonnement multi-étapes sourcé" }
+    },
+    "examples": "Exemples de requêtes",
+    "exampleList": [
+      "Patient 68 ans, FA, HTA, diabète. Anticoagulation?",
+      "Interactions entre warfarine, ibuprofène et digoxine",
+      "Score CHADS2-VASc: âge 72, HTA, diabète, AVC antérieur",
+      "Dernières guidelines ESC 2024 sur l'insuffisance cardiaque",
+      "Analyse radio thoracique: opacité lobaire inférieure droite"
+    ]
+  },
+  "patient": {
+    "title": "Contexte Patient",
+    "subtitle": "Informations enrichissant les réponses de l'agent",
+    "chiefComplaint": "Motif de consultation",
+    "chiefComplaintPlaceholder": "Ex: Douleur thoracique depuis 2h, irradiant au bras gauche...",
+    "age": "Âge (ans)",
+    "sex": "Sexe",
+    "weight": "Poids (kg)",
+    "male": "Masculin",
+    "female": "Féminin",
+    "other": "Autre",
+    "allergies": "Allergies",
+    "allergiesPlaceholder": "Ex: Pénicilline, AINS...",
+    "medications": "Traitements en cours",
+    "medicationsPlaceholder": "Ex: Metformine 1g, Ramipril 5mg...",
+    "conditions": "Antécédents / Pathologies chroniques",
+    "conditionsPlaceholder": "Ex: Diabète T2, HTA, BPCO...",
+    "save": "Enregistrer",
+    "clear": "Effacer le contexte",
+    "saved": "Contexte patient enregistré"
+  },
+  "vision": {
+    "title": "Analyse d'image médicale — Groq Vision",
+    "dropTitle": "Dépose une image médicale",
+    "dropSubtitle": "Radio · ECG · IRM · Scanner · Fond d'œil — JPG, PNG, WebP",
+    "chooseFile": "Choisir un fichier",
+    "contextPlaceholder": "Contexte clinique optionnel: âge, symptômes, motif de l'examen...",
+    "analyze": "Analyser l'image",
+    "analyzing": "Analyse en cours par Groq Vision…",
+    "reportTitle": "Rapport d'analyse — Groq Vision",
+    "errorFormat": "Fichier image requis (JPG, PNG, WebP)",
+    "errorSize": "Image trop volumineuse (max 20MB)",
+    "errorFailed": "Analyse échouée"
+  },
+  "voice": {
+    "record": "Enregistrer un message vocal",
+    "stop": "Arrêter l'enregistrement",
+    "transcribing": "Transcription...",
+    "success": "Transcrit",
+    "errorMic": "Microphone refusé — autorise le micro dans ton navigateur",
+    "errorEmpty": "Transcription vide",
+    "errorFailed": "Transcription échouée"
+  },
+  "language": {
+    "select": "Langue",
+    "fr": "Français",
+    "en": "English",
+    "ar": "العربية",
+    "es": "Español"
+  }
+}
