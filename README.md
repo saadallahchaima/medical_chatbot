@@ -1,19 +1,3 @@
-# 🏥 MediAgent — Assistant Clinique IA
-
-> Agent IA médical autonome combinant RAG médical, raisonnement ReAct multi-étapes et outils spécialisés pour produire des rapports diagnostiques expliquables et sourcés.
-
-```
-Médecin / Patient → LLM Orchestrateur (ReAct)
-                         ├── 📚 RAG Médical (DSM-5, ICD-11, Guidelines)
-                         ├── 🔬 PubMed Search
-                         ├── 💊 Drug Interaction Checker
-                         ├── 📊 Clinical Risk Scorer
-                         └── 🩻 Medical Vision
-                    → Rapport clinique structuré (sourcé & expliqué)
-```
-
----
-
 ## ⚡ Démarrage rapide — GRATUIT (5 minutes)
 
 ### Prérequis
@@ -363,3 +347,6 @@ validée par un praticien qualifié. Ne pas utiliser pour l'automédication.
 ## 📄 Licence
 
 MIT — Projet académique / démonstration jury.
+=======
+# medical_chatbot
+>>>>>>> f25752847036c65365e32be654051bd9e98744c4
