@@ -5,8 +5,7 @@
 <img width="953" height="525" alt="Capture d’écran 2026-05-24 à 12 03 22 PM" src="https://github.com/user-attachments/assets/df8b808f-6c4f-441c-9a52-12899c34c00b" />
 <img width="953" height="525" alt="Capture d’écran 2026-05-24 à 12 03 13 PM" src="https://github.com/user-attachments/assets/fa56b23b-2831-4b46-93e1-ba0176261876" />
 
-![Uplo<img width="5388" height="5938" alt="diagram" src="https://github.com/user-attachments/assets/bb6c05df-4d7b-4082-8fda-2914fb172d53" />
-ading image.png…]()
+<img width="5388" height="5938" alt="diagram" src="https://github.com/user-attachments/assets/bb6c05df-4d7b-4082-8fda-2914fb172d53" />
 
 ## ⚡ Démarrage rapide — GRATUIT (5 minutes)
 
