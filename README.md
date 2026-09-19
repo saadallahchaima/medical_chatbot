@@ -4,6 +4,9 @@
 <img width="953" height="525" alt="Capture d’écran 2026-05-24 à 12 03 32 PM" src="https://github.com/user-attachments/assets/e1e62c5b-6b2d-4934-88e9-345e9398560d" />
 <img width="953" height="525" alt="Capture d’écran 2026-05-24 à 12 03 22 PM" src="https://github.com/user-attachments/assets/df8b808f-6c4f-441c-9a52-12899c34c00b" />
 <img width="953" height="525" alt="Capture d’écran 2026-05-24 à 12 03 13 PM" src="https://github.com/user-attachments/assets/fa56b23b-2831-4b46-93e1-ba0176261876" />
+
+![Uploading image.png…]()
+
 ## ⚡ Démarrage rapide — GRATUIT (5 minutes)
 
 ### Prérequis
